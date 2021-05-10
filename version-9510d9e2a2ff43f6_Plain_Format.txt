@@ -1,0 +1,368 @@
+addinfo : __cdecl : 0x01556D80
+adjuststack : __cdecl : 0x0154A9F0
+arith : __cdecl : 0x01565500
+appendarray : __thiscall : 0x005D3550
+aux_upvalue : __cdecl : 0x015480F0
+auxgetinfo : __cdecl : 0x01556DF0
+auxresume : __fastcall : 0x0154C180
+call_bintm : __cdecl : 0x01564A00
+call_ordertm : __cdecl : 0x01564AA0
+calltmres : __cdecl : 0x015648B0
+close_state : __cdecl : 0x015566D0
+currentline : __cdecl : 0x01556FA0
+err_geterrorstring : __cdecl : 0x00962B40
+f_call : __cdecl : 0x01548170
+f_luaopen : __cdecl : 0x01556780
+findfirstchild : __stdcall : 0x006854F0
+findfirstchildofclass : __stdcall : 0x006857F0
+findlocal : __cdecl : 0x01562C90
+fireclickdetector : __thiscall : 0x00C73090
+fireproximityprompt : __cdecl : 0x00CC0E40
+flog_getvalue : __cdecl : 0x0179EC90
+flog_setvalue : __stdcall : 0x017A08E0
+getdatamodel : __thiscall : 0x00FF38A0
+getdatamodel2 : __cdecl : 0x00FF3750
+getfunc : __cdecl : 0x01557F00
+getjobsbyname : __cdecl : 0x01089B70
+getnamecallmethod : __cdecl : 0x0154AA60
+grabscriptcontext : __thiscall : 0x005EE5E0
+grabglobalstateindex : __thiscall : 0x007AC980
+growci : __cdecl : 0x0154BD40
+hashnum : __cdecl : 0x01563450
+index2adr : __stdcall : 0x015481C0
+report_touch_info : __stdcall : 0x0093E060
+propagateall : __cdecl : 0x01561CD0
+propagatemark : __cdecl : 0x01561EE0
+sweeplist : __cdecl : 0x01562550
+luaopen_base : __cdecl : 0x01558310
+luaopen_table : __cdecl : 0x01558A40
+luaopen_bit32 : __cdecl : 0x0155EB40
+lua_call : __cdecl : 0x015482F0
+lua_checkstack : __cdecl : 0x006E5DF0
+lua_close : __cdecl : 0x01556910
+lua_concat : __cdecl : 0x01548400
+lua_createtable : __cdecl : 0x015484B0
+lua_error : __thiscall : 0x01548620
+lua_freeobj : __cdecl : 0x01561340
+lua_gc : __cdecl : 0x01548630
+lua_getargument : __cdecl : 0x01557430
+lua_getfenv : __cdecl : 0x01548750
+lua_getfield : __stdcall : 0x015487F0
+lua_getinfo : __cdecl : 0x01557500
+lua_getlocal : __cdecl : 0x015575E0
+lua_getmetatable : __cdecl : 0x015488A0
+lua_gettable : __cdecl : 0x01548960
+lua_gettop : __cdecl : 0x015489D0
+lua_getupvalue : __cdecl : 0x015489F0
+lua_insert : __cdecl : 0x01548A80
+lua_iscfunction : __cdecl : 0x01548B50
+lua_isnumber : __cdecl : 0x01548BA0
+lua_isstring : __cdecl : 0x01548C00
+lua_isuserdata : __cdecl : 0x01548B00
+lua_lessthan : __cdecl : 0x01548C50
+lua_newstate : __cdecl : 0x01556940
+lua_newthread : __cdecl : 0x01548D00
+lua_newuserdata : __cdecl : 0x01548D90
+lua_next : __cdecl : 0x01548E10
+lua_objlen : __cdecl : 0x01548EA0
+lua_pcall : __cdecl : 0x01548F80
+lua_pushboolean : __cdecl : 0x01549040
+lua_pushcclosure : __stdcall : 0x01549090
+lua_pushfstring : __cdecl : 0x01549170
+lua_pushinteger : __cdecl : 0x015491E0
+lua_pushlightuserdata : __cdecl : 0x01549240
+lua_pushlstring : __cdecl : 0x01549290
+lua_pushnil : __cdecl : 0x01549310
+lua_pushnumber : __thiscall : 0x01549360
+lua_pushstring : __stdcall : 0x015493C0
+lua_pushthread : __cdecl : 0x015494A0
+lua_pushvalue : __stdcall : 0x01549570
+lua_pushvfstring : __cdecl : 0x01549640
+lua_rawequal : __cdecl : 0x01549720
+lua_rawget : __cdecl : 0x015497A0
+lua_rawgeti : __cdecl : 0x015498D0
+lua_rawset : __cdecl : 0x01549950
+lua_rawseti : __cdecl : 0x01549A20
+lua_rawvalue : __cdecl : 0x015482A0
+lua_remove : __cdecl : 0x01549BF0
+lua_replace : __cdecl : 0x01549C80
+lua_resume : __cdecl : 0x0154C200
+lua_setfenv : __cdecl : 0x01549D80
+lua_setfield : __cdecl : 0x01549E40
+lua_setlocal : __cdecl : 0x015576B0
+lua_setmetatable : __cdecl : 0x01549EF0
+lua_setreadonly : __cdecl : 0x0154A000
+lua_setsafeenv : __cdecl : 0x0154A070
+lua_settable : __cdecl : 0x0154A0E0
+lua_settop : __fastcall : 0x0154A160
+lua_setupvalue : __cdecl : 0x0154A1E0
+lua_toboolean : __cdecl : 0x0154A290
+lua_tointeger : __cdecl : 0x0154A2E0
+lua_tolstring : __fastcall : 0x0154A360
+lua_tonumber : __cdecl : 0x0154A490
+lua_topointer : __cdecl : 0x0154A510
+lua_tostring : __cdecl : 0x0154A5D0
+lua_tothread : __cdecl : 0x0154A650
+lua_tounsignedx : __cdecl : 0x0154A690
+lua_touserdata : __cdecl : 0x0154A720
+lua_type : __cdecl : 0x0154A810
+lua_typename : __cdecl : 0x0154A850
+lua_xmove : __cdecl : 0x0154A950
+lua_yeild : __cdecl : 0x0154C460
+luaa_pushobject : __cdecl : 0x01548280
+luab_auxwrap : __cdecl : 0x015587D0
+luac_barrierback : __cdecl : 0x015613C0
+luac_barrierf : __cdecl : 0x015613E0
+luac_fullgc : __cdecl : 0x015616C0
+luac_link : __cdecl : 0x015617B0
+luac_linkupval : __cdecl : 0x015617E0
+luac_step : __cdecl : 0x01561860
+luad_call : __cdecl : 0x0154BCA0
+luad_growstack : __cdecl : 0x0154BDA0
+luad_pcall : __cdecl : 0x0154BDD0
+luad_poscall : __cdecl : 0x01555D50
+luad_precall : __cdecl : 0x01555DD0
+luad_rawrunprotected : __cdecl : 0x0154BEB0
+luad_reallocci : __cdecl : 0x0154BF50
+luad_reallocstack : __cdecl : 0x0154BFD0
+luad_seterrorObj : __cdecl : 0x0154C0E0
+luad_throw : __fastcall : 0x0154C150
+luae_freethread : __cdecl : 0x01556800
+luae_newthread : __cdecl : 0x01556880
+luaf_close : __cdecl : 0x015629E0
+luaf_findupval : __cdecl : 0x01562A70
+luaf_freeproto : __cdecl : 0x01562B60
+luaf_newcclosure : __cdecl : 0x01562CE0
+luaf_newlclosure : __cdecl : 0x01562D40
+luaf_newproto : __cdecl : 0x01562DB0
+luag_aritherror : __cdecl : 0x01557040
+luag_breakpoint : __cdecl : 0x015570B0
+luag_concaterror : __cdecl : 0x015571E0
+luag_forerrorl : __cdecl : 0x01557220
+luag_getline : __cdecl : 0x01557250
+luag_indexerror : __cdecl : 0x01557290
+luag_ordererror : __cdecl : 0x01557340
+luag_runerror : __cdecl : 0x015573D0
+luag_typeerror : __cdecl : 0x01565B30
+luah_clone : __cdecl : 0x01563530
+luah_free : __cdecl : 0x01563060
+luah_get : __cdecl : 0x015636C0
+luah_getn : __cdecl : 0x01563770
+luah_getnum : __cdecl : 0x015637F0
+luah_getstr : __cdecl : 0x015638D0
+luah_new : __cdecl : 0x01563930
+luah_next : __cdecl : 0x015639A0
+luah_resizearray : __cdecl : 0x01563B80
+luah_set : __cdecl : 0x01563BD0
+luah_setnum : __cdecl : 0x01563D40
+luah_setstr : __cdecl : 0x01563DB0
+lual_addlstring : __cdecl : 0x0154AB20
+lual_addvalue : __cdecl : 0x0154AC00
+lual_argerror : __cdecl : 0x0154AC90
+lual_buffinit : __cdecl : 0x0154AD10
+lual_checkany : __cdecl : 0x0154AD80
+lual_checkinteger : __cdecl : 0x0154ADC0
+lual_checklstring : __cdecl : 0x0154ADF0
+lual_checknumber : __cdecl : 0x0154AE20
+lual_checkstack : __thiscall : 0x0154AE50
+lual_checktype : __cdecl : 0x0154AE90
+lual_checkunsigned : __cdecl : 0x0154AEC0
+lual_error : __cdecl : 0x0154AEF0
+lual_findtable : __cdecl : 0x0154AFF0
+lual_getmetafield : __cdecl : 0x0154B690
+lual_newmetatable : __cdecl : 0x0154B140
+lual_optinteger : __cdecl : 0x0154B1B0
+lual_optlstring : __cdecl : 0x0154B200
+lual_prepbuffer : __cdecl : 0x0154B2E0
+lual_pushresult : __cdecl : 0x0154B3C0
+lual_ref : __cdecl : 0x0154B4B0
+lual_register : __cdecl : 0x0154B570
+lual_typeerror : __cdecl : 0x0154B930
+lual_unref : __cdecl : 0x0154B9D0
+lual_where : __cdecl : 0x0154BA30
+luam_realloc : __cdecl : 0x01566121
+luam_realloc_ : __cdecl : 0x01565ED0
+luam_toobig : __thiscall : 0x01566130
+luao_chunkid : __cdecl : 0x01556260
+luao_pushfstring : __cdecl : 0x015563E0
+luao_pushvfstring : __cdecl : 0x01556480
+luao_rawequalKey : __cdecl : 0x01556520
+luao_rawequalobj : __cdecl : 0x015565A0
+luao_str2d : __cdecl : 0x01556620
+luas_newlstr : __cdecl : 0x015630E0
+luas_newudata : __cdecl : 0x015632C0
+luas_resize : __cdecl : 0x01563310
+luat_gettm : __cdecl : 0x01565B00
+luat_objtypename : __cdecl : 0x01565C50
+luau_backtrace : __cdecl : 0x01554B90
+luau_betavm : __cdecl : 0x01550970
+luau_callhook : __cdecl : 0x01555130
+luau_calltm : __cdecl : 0x01555010
+luau_deserialize : __cdecl : 0x015552B0
+luau_execute : __cdecl : 0x01580650
+luau_loopforg : __thiscall : 0x015580F0
+luau_prepareforn : __cdecl : 0x01555F50
+luau_resolveimport : __cdecl : 0x01555FF0
+luau_tryfunctm : __cdecl : 0x01556190
+luav_concat : __cdecl : 0x01564B30
+luav_doarith : __thiscall : 0x01564F70
+luav_dolen : __cdecl : 0x01567CF0
+luav_execute : __cdecl : 0x0154C7B0
+luav_gettable : __cdecl : 0x01565650
+luav_gettable_opt : __cdecl : 0x01565630
+luav_lessequal : __cdecl : 0x01565760
+luav_lessthan : __cdecl : 0x01565800
+luav_settable : __cdecl : 0x015658A0
+luav_tonumber : __cdecl : 0x01565A30
+luav_tostring : __cdecl : 0x01565A90
+luavm_compile : __cdecl : 0x006E54B0
+luavm_load : __cdecl : 0x006E59F0
+luax_init : __cdecl : 0x01565BA0
+luaz_openspace : __cdecl : 0x01567D60
+mainposition : __cdecl : 0x01563E00
+markmt : __cdecl : 0x01561B50
+markroot : __cdecl : 0x01561C40
+match : __cdecl : 0x0155C630
+newkey : __cdecl : 0x01563F70
+print : __cdecl : 0x00673840
+push_captures : __cdecl : 0x0155D080
+push_instance : __cdecl : 0x0089F520
+rbx_get_property : __thiscall : 0x0089D5C0
+rbx_network_replicator_onreceive : __fastcall : 0x013AE900
+rbx_network_physicssenders2_sendpacket : __thiscall : 0x0146E750
+rbx_disable_report_screenshot_gl2 : __cdecl : 0x0119B770
+rbx_disable_report_screenshot_gl : __cdecl : 0x0119B750
+rbx_disable_report_screenshot_metal : __cdecl : 0x0119B790
+rbx_disable_report_screenshot_vulkan : __cdecl : 0x0119B7B0
+rbx_disable_report_screenshot_d3d : __cdecl : 0x0119B730
+rbx_setsimulationradius : __thiscall : 0x0146DA30
+rbx_network_clientreplicator_processtag : __stdcall : 0x014028C0
+rbx_corescript_getluavmcorescriptfilepath : __cdecl : 0x00B030D0
+rbx_datastore_runtransformfunction : __stdcall : 0x00D01AB0
+rbx_datamodel_dodatamodelsetup : __cdecl : 0x00708250
+rbx_debugvalueconverte_userdatatostring : __cdecl : 0x00C3CF30
+rbx_deu_uploadcrasheventfile : __cdecl : 0x00633230
+rbx_lm_reporterror : __cdecl : 0x00637B10
+rbx_lua_dumpthreadrefcounts : __cdecl : 0x0086FEC0
+rbx_network_replicator_processdeserializedpacket : __thiscall : 0x013B2AE0
+rbx_network_server_registerlegalscript : __thiscall : 0x013DE360
+rbx_rcr_processexception : __stdcall : 0x006379B0
+raknet_rakpeer_runupdatecycle : __thiscall : 0x013E5310
+rbx_sc_closestate : __stdcall : 0x007A7D20
+rbx_taskscheduler_getlastcycletimestamp : __cdecl : 0x01065020
+rbx_lua_bridge_on_index : __cdecl : 0x0089F020
+rbx_security_context_current : __thiscall : 0x01546980
+rbx_security_impersonator_impersonator : __stdcall : 0x015468B0
+rbx_datamodel_getjobsinfo : __thiscall : 0x0070BCC0
+rbx_sc_crash : __cdecl : 0x007A88F0
+rbx_sc_interrupt : __cdecl : 0x007AEB00
+rbx_sc_loadstring : __cdecl : 0x007AF510
+rbx_sc_scriptcontext : __thiscall : 0x007A1560
+rbx_sc_startscript : __stdcall : 0x007BC680
+rbx_sc_watchdog : __thiscall : 0x007BE3C0
+rbx_scriptcontext_getcontext : __cdecl : 0x007C8010
+rbx_scriptcontext_debuggermanager : __cdecl : 0x007A90D0
+rbx_scriptcontext_pluginmanager : __cdecl : 0x007B2740
+rbx_scriptcontext_usersettings : __cdecl : 0x007BDF50
+rbx_scriptcontext_settings : __cdecl : 0x007BB970
+rbx_scriptcontext_getglobalstate : __cdecl : 0x007AC9C0
+rbx_modulescript_vmstate : __stdcall : 0x00C50BB0
+rbx_modulescript_pervmstate_setcompletedsuccess : __thiscall : 0x00C50890
+rbx_modulescript_pervmstate_getandclearyieldedimporters : __thiscall : 0x00C50570
+rbx_scriptcontext_requiremodulescriptsuccesscontinuation : __cdecl : 0x007B9120
+rbx_setthreadname : __cdecl : 0x01064A10
+rbx_serializer_loadinstances : __cdecl : 0x008AFF10
+rbx_scriptcontext_printcallstack : __cdecl : 0x007B29A0
+rbx_serializer_loadinstances_long : __cdecl : 0x008AFF30
+rbx_standardout_printwithlink : __cdecl : 0x00673540
+rbx_ts_startscript : __thiscall : 0x00B4D770
+rbx_ws_getrealphysicsfps : __thiscall : 0x0094E380
+rbxcrash : __cdecl : 0x017AA970
+reallymarkobject : __cdecl : 0x01562150
+rehash : __cdecl : 0x01564120
+reportError : __stdcall : 0x007AE2E0
+resize : __cdecl : 0x01564380
+resume : __cdecl : 0x0154C4D0
+resume_error : __cdecl : 0x0154C5B0
+retcheck : __cdecl : 0x006E5DF0
+robloxextraspace__robloxextraspace : __thiscall : 0x007A5680
+sandboxthread : __cdecl : 0x007AF1C0
+setarrayvector : __cdecl : 0x015645D0
+setnodevector : __cdecl : 0x01564680
+singlestep : __cdecl : 0x015622F0
+spawn : __cdecl : 0x007BBB40
+stack_init : __cdecl : 0x01556CD0
+str_find_aux : __cdecl : 0x0155D3C0
+tag_error : __cdecl : 0x0154BAA0
+trustCheck : __cdecl : 0x017208F0
+taskscheduler : __cdecl : 0x01065240
+unbound_search : __cdecl : 0x01564750
+vm_invoker : __thiscall : 0x01555290
+cum_check_bypass : 0x0171F887
+callcheck : 0x005FF2E0
+retcheckflag1 : 0x02AB414C
+retcheckflag2 : 0x02AB423C
+xorconst : 0x02A39B50
+luao_nilobject : 0x02292E28
+luat_typenames : 0x02294790
+kname : 0x027ECA08
+op_index : 0x015507EC
+op_case_table : 0x015506C0
+retcheck_jmp : 0x006E5E10
+trustcheck_bypass1 : 0x026B589C
+scriptinstance : 0x02887F88
+scriptcontext : 0x02093DAC
+getnamecallmethod_offset : 96
+networked_dm : 1184
+Identity1 : 24
+Identity2 : 108
+ls_readonly : 9
+ls_base_ci : 0
+ls_end_ci : 0
+ls_ci : 16
+ls_saved_pc : 16
+ls_top : 16
+ls_base : 20
+ls_env : 72
+ls_l_gt : 56
+ls_gs_totalbytes : 76
+ls_gs_gcthreshold : 68
+ls_gs_gcpause : 80
+ls_gs_gcstepmul : 84
+ls_gs_rootgc : 28
+ls_gs_mainthread : 1280
+ls_closure_nupvalues : 5
+ls_closure_env : 16
+ls_closure_isc : 0
+R_LUA_TNONE : -1
+R_LUA_TUSERDATA : 9
+R_LUA_TFUNCTION : 7
+R_LUA_TSTRING : 5
+R_LUA_TBOOLEAN : 1
+R_LUA_TNUMBER : 2
+R_LUA_TTABLE : 6
+R_LUA_TNIL : 0
+R_LUA_TTHREAD : 8
+R_LUA_TVECTOR : 3
+R_LUA_TLIGHTUSERDATA : 4
+R_LUA_TPROTO : 10
+R_LUA_TUPVALUE : 11
+proto_k : 20
+proto_sizek : 68
+proto_code : 12
+proto_sizep : 52
+proto_locvars : 16
+proto_sizecode : 64
+proto_sizeupvalues : 60
+proto_maxstacksize : 80
+proto_sizelineinfo : 81
+proto_upvalues : 76
+proto_size_locvars : 32
+proto_source : 28
+proto_numparams : 81
+LuaState: (ScriptContext +204) - *(DWORD*)(ScriptContext + 204);
+std::uint32_t RBX_GlobalState(std::uint32_t a1) {  std::uint32_t  v1  =  (a1  +  12)  -  *reinterpret_cast<std::uint32_t*>((a1  +  12)); return v1; } 
+SetIdentity:  *(DWORD*)(*(DWORD*)(LS + 108) + 24)  = identity; 
+RBX_ProtoObfuscate:  *(int*)p = p - v;
+RBX_ProtoDeobfuscate:  *(int*)p + p;
+
